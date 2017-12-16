@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/spices"
+    tools:context="com.example.android.justkotlin.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="25dp"
+            android:text="Swallow"
+            android:textSize="18dp"
+            android:textColor="#3E2723"/>
+
+        <TextView
+            android:id="@+id/textString"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Eba"
+            android:paddingLeft="50dp"
+            android:textSize="16dp"
+            android:textColor="#3E2723"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="25dp">
+
+            <Button
+                android:id="@+id/ebaIncrement"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/amala_button"
+                android:text="+"/>
+
+            <TextView
+                android:id="@+id/ebaQuant"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="12dp"
+                android:paddingRight="12dp"
+                android:text="1"
+                android:textColor="#000"/>
+
+            <Button
+                android:id="@+id/ebaDecrement"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/amala_button"
+                android:text="-"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Semovita"
+            android:paddingLeft="30dp"
+            android:textSize="16dp"
+            android:textColor="#3E2723"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="25dp">
+
+            <Button
+                android:id="@+id/semoIncrement"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/amala_button"
+                android:text="+"/>
+
+            <TextView
+                android:id="@+id/semoQuant"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="12dp"
+                android:paddingRight="12dp"
+                android:text="1"
+                android:textColor="#000"/>
+
+            <Button
+                android:id="@+id/semoDecrement"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/amala_button"
+                android:text="-"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Amala"
+            android:paddingLeft="40dp"
+            android:textSize="16dp"
+            android:textColor="#3E2723"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="25dp">
+
+            <Button
+                android:id="@+id/amalaIncrement"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/amala_button"
+                android:text="+"/>
+
+            <TextView
+                android:id="@+id/amalaQuant"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="12dp"
+                android:paddingRight="12dp"
+                android:text="1"
+                android:textColor="#000"/>
+
+            <Button
+                android:id="@+id/amalaDecrement"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/amala_button"
+                android:text="-"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="15dp"
+            android:paddingTop="15dp"
+            android:text="Soup"
+            android:textColor="#000"
+            android:textSize="18dp" />
+
+        <CheckBox
+            android:id="@+id/oha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Oha Soup"/>
+
+        <CheckBox
+            android:id="@+id/ewedu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ewedu"/>
+
+        <CheckBox
+            android:id="@+id/egusi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Egusi Soup"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="15dp"
+            android:paddingTop="25dp"
+            android:text="Fillings"
+            android:textColor="#000"
+            android:textSize="18dp"/>
+
+        <CheckBox
+            android:id="@+id/beef"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="beef"/>
+
+        <CheckBox
+            android:id="@+id/cow_head"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cow Head"/>
+
+        <CheckBox
+            android:id="@+id/assorted"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Assorted"/>
+
+        <TextView
+            android:id="@+id/updateprice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="25dp"
+            android:paddingBottom="25dp"
+            android:text="Total amount is N15"
+            android:textColor="#000"/>
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Place Order"
+            android:background="@drawable/amala_button"
+            android:textAllCaps="false"/>
+
+    </LinearLayout>
+</ScrollView>
